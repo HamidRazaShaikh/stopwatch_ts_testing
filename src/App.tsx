@@ -59,7 +59,7 @@ const Stopwatch = () => {
   return (
     <div className="main-container">
       <div className="container">
-        <div className="title"> stop watch by hamid raza shaikh</div>
+        <div className="title"> stop watch by hamid raza</div>
         <div className="display">
           {timeFormate()}
          
