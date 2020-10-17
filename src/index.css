@@ -1,13 +1,125 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.main-container {
+
+  display: flex;
+  flex-wrap : wrap;
+  justify-content:space-around
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.container {
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 700px;
+  background-image: linear-gradient(90deg, rgb(150, 19, 226) 0%, rgb(214, 39, 200) 100%);
+  border-radius: 25px;
+  border-width: 50px;
+
+
+
+
+
+
+}
+
+.title {
+
+  font-size: 30px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color : #94c2e7;
+  font-weight: 200px;
+}
+
+.display {
+
+  background-color: #ffffffff;
+  margin-top: 20px;
+  padding-left: 50px;
+  height : 200px;
+  width : 600px;
+  border-radius:25px ;
+  font-size: 150px;
+  /* display: flex;
+  justify-content:center;
+   */
+}
+
+.btn {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn-start {
+
+  height : 50px;
+  width : 100px;
+  margin-top: 30px;
+  background-color : #ffffffff;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color : #33a045;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+
+.btn-stop {
+
+  height : 50px;
+  width : 100px;
+  margin-top: 30px;
+  background-color : #ffffffff;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color : #a73f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px
+
+}
+
+.btn-reset {
+
+  height : 50px;
+  width : 100px;
+  margin-top: 30px;
+  background-color : #ffffffff;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color : #2f3dbd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left : 20px
+
+  
+
+}
+
+.btn-start:hover{
+
+  background-color : rgb(189, 189, 231)
+
+}
+
+.btn-stop:hover{
+
+  background-color : rgb(122, 223, 131)
+
+}
+
+.btn-reset:hover{
+
+  background-color : rgb(226, 122, 204)
+
 }
