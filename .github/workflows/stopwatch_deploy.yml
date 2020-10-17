@@ -24,4 +24,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ http://stopwatch_ts_testdev.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ stopwatch_ts_testdev.surge.sh --token ${{ secrets.SURGE_TOKEN }}
